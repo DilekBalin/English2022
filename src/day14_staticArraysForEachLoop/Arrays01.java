@@ -12,6 +12,10 @@ public class Arrays01 {
         to create an array ,you must inform Java about the number of data you want to store in the array
            */
 
+        //You can not store non-primitive data types in an array
+        //Arrays are for storing primitive data types and references
+       // String arrSt[]="Ali","Can"}  >> Java put Ali and Can's referanses in to Array
+
 
         int myArray[] = new int[5];  // 5 is array's length.
 
