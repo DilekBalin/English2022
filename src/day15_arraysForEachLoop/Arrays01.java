@@ -1,8 +1,11 @@
+package day15_arraysForEachLoop;
+
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class day15_arraysForEachLoop {
+public class Arrays01 {
     public static void main(String[] args) {
+
 
         //sort the array elements according to their lengths
 
@@ -28,7 +31,8 @@ public class day15_arraysForEachLoop {
         Arrays.sort(urr,Comparator.comparingInt(String::length).reversed().thenComparing(Comparator.naturalOrder()));
         //naturelOrder() means alphetical order in Strings,ascending order in numbers
         System.out.println(Arrays.toString(urr)); //[Micheal, Maria, Ayse, Veli, Can, Tan, Ali]
-
+        Arrays.sort(urr,Comparator.comparingInt(String::length).thenComparing(Comparator.naturalOrder()));
+        System.out.println(Arrays.toString(urr));//[Ali, Can, Tan, Ayse, Veli, Maria, Micheal]
 
     }
 }

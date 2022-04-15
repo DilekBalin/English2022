@@ -15,13 +15,13 @@ public class Arrays_Spesific_Character {
                 counter++;
             }
         }
-        System.out.println("There is "+ counter+ " a in the array");
+        System.out.println("There is "+ counter+ " a in the array");//There is 4 a in the array
         System.out.println("**************");
 
         //2:
         String s2="Java, I like Java?";
         String arr2[]=s2.split("a");
-        System.out.println("The number of the character: "+(arr2.length-1));//4
+        System.out.println("The number of the character: "+(arr2.length-1));//The number of the character: 4
 
         //String arr2[]=s2.split("a");
         System.out.println(Arrays.toString(arr2)); //[J, v, , I like J, v, ?]>>>  5 elements

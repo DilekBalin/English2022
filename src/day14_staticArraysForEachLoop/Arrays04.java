@@ -12,12 +12,12 @@ public class Arrays04 {
         int arr1[]={0,2,3,0,12,0};
         int arr2[]=new int[6];
 
-        int a=0;
+        int index=0;
 
         for (int i=0;i<arr1.length;i++){
             if(arr1[i]!=0){
-                arr2[a]=arr1[i];
-                a++;
+                arr2[index]=arr1[i];
+                index++;
             }
 
         }

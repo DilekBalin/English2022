@@ -56,7 +56,7 @@ public class Arrays2 {
             if (w.equals("Can")) {
                 break; //
             }
-             System.out.println(w);
+             System.out.println(w);// [Ali,Beyhan]
 
         }
         System.out.println("*********************");
@@ -64,7 +64,7 @@ public class Arrays2 {
 
         for(String w: myStringArray){
             if(!w.equals("Can")){
-                System.out.println(w);
+                System.out.println(w);//[Ali,Beyhan,Veli]
             }
         }
         System.out.println("***************");
